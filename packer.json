@@ -1,11 +1,11 @@
 {
   "builders": [
     {
-      "vm_name": "centos4.8-x86_64",
+      "vm_name": "centos4.7-x86_64",
       "guest_os_type": "RedHat_64",
       "iso_checksum_type": "md5",
-      "iso_checksum": "7cb72a6b084a917f7ce889f2a220e621",
-      "iso_url": "http://ftp.riken.jp/Linux/centos/4.8/isos/x86_64/CentOS-4.8-x86_64-binDVD.iso",
+      "iso_checksum": "16cafb8da2a6e1d86a81a70d2ca58e76",
+      "iso_url": "http://mirror.ash.fastserv.com/centos/4.7/isos/x86_64/CentOS-4.7-x86_64-binDVD.iso",
       "type": "virtualbox-iso",
       "ssh_password": "vagrant",
       "ssh_username": "vagrant",
@@ -38,7 +38,7 @@
     {
       "type": "vagrant",
       "compression_level": 9,
-      "output": "centos4.8-x86_64.box"
+      "output": "centos4.7-x86_64.box"
     }
   ]
 }
