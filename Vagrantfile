@@ -2,5 +2,6 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "hfm4/centos4"
+  config.vbguest.auto_update = true
+  config.vm.box = "centos4.8-x86_64"
 end
